@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rates - Convert It Now</title>
+    <link rel="stylesheet" href="exchange-rate.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo"><a href="index.html">
+                Convert It Now </a>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <div class="exchange-rates-container">
+                <h2>Latest Exchange Rates</h2>
+                <table class="exchange-rates-table">
+                    <tbody id="exchange-rates">
+                        <tr>
+                            <td>PKR/USD</td>
+                            <td id="pkr-usd">0.00</td>
+                        </tr>
+                        <tr>
+                            <td>PKR/EUR</td>
+                            <td id="pkr-eur">0.00</td>
+                        </tr>
+                        <tr>
+                            <td>PKR/GBP</td>
+                            <td id="pkr-gbp">0.00</td>
+                        </tr>
+                        <tr>
+                            <td>PKR/JPY</td>
+                            <td id="pkr-jpy">0.00</td>
+                        </tr>
+                        <tr>
+                            <td>PKR/AUD</td>
+                            <td id="pkr-aud">0.00</td>
+                        </tr>
+                        <tr>
+                            <td>PKR/CAD</td>
+                            <td id="pkr-cad">0.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button class="refresh-btn" onclick="refreshRates()">Refresh Rates</button>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2023 ConvertItNow. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="exchange-rate.js"></script>
+</body>
+</html>
