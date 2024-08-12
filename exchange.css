@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0 8px 10px red;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+}
+.nav-links li a:hover{
+    text-decoration: underline;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.globe-image {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.white-btn {
+    background-color: #fff;
+    color: #000;
+}
+.white-btn:hover{
+    background-color: rgb(138, 137, 136);
+    transition: 0.2s;
+}
+
+.purple-btn {
+    background-color: #9c27b0;
+    color: #fff;
+}
+.purple-btn:hover {
+    background-color: #560a51;
+    transition: .2s;
+    color: #ffffff;
+}
+.purple-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #ccc;
+    margin: 0 10px;
+}
+.footer-links a:hover{
+    text-decoration: underline;
+}
+
+.converter-form {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.converter-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.converter-form input, .converter-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.convert-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    border-radius: 6px;
+}
+.convert-btn:hover{
+    background-color: #a19090;
+    transition: .3s;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
