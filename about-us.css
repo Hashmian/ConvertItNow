@@ -51,7 +51,6 @@ body {
     font-weight: bold;
 }
 .nav-links a:hover{
-    color: blue;
     transition: 0.3s;
     text-decoration: underline;
 }
